@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    android:label="Glavna jela"
+    app:startDestination="@id/home2">
+
+    <fragment
+        android:id="@+id/home2"
+        android:name="com.example.menzara.Home"
+        android:label="Menzara"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_home2_to_glavnaJela"
+            app:destination="@id/glavnaJela" />
+        <action
+            android:id="@+id/action_home2_to_jelaPoIzboru"
+            app:destination="@id/jelaPoIzboru" />
+        <action
+            android:id="@+id/action_home2_to_prilozi"
+            app:destination="@id/prilozi" />
+        <action
+            android:id="@+id/action_home2_to_juhe"
+            app:destination="@id/juhe" />
+        <action
+            android:id="@+id/action_home2_to_variva"
+            app:destination="@id/variva" />
+        <action
+            android:id="@+id/action_home2_to_deserti"
+            app:destination="@id/deserti" />
+        <action
+            android:id="@+id/action_home2_to_salate"
+            app:destination="@id/salate" />
+        <action
+            android:id="@+id/action_home2_to_pica"
+            app:destination="@id/pica" />
+        <action
+            android:id="@+id/action_home2_to_dodaci"
+            app:destination="@id/dodaci" />
+        <action
+            android:id="@+id/action_home2_to_mlijecni"
+            app:destination="@id/mlijecni" />
+        <action
+            android:id="@+id/action_home2_to_voce"
+            app:destination="@id/voce" />
+    </fragment>
+    <fragment
+        android:id="@+id/glavnaJela"
+        android:name="com.example.menzara.GlavnaJela"
+        android:label="Glavna jela"
+        tools:layout="@layout/fragment_glavna_jela">
+        <action
+            android:id="@+id/action_glavnaJela_to_home22"
+            app:destination="@id/home2" />
+    </fragment>
+    <fragment
+        android:id="@+id/jelaPoIzboru"
+        android:name="com.example.menzara.JelaPoIzboru"
+        android:label="Jela po izboru"
+        tools:layout="@layout/fragment_jela_po_izboru">
+        <action
+            android:id="@+id/action_jelaPoIzboru_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+    <fragment
+        android:id="@+id/prilozi"
+        android:name="com.example.menzara.Prilozi"
+        android:label="Prilozi"
+        tools:layout="@layout/fragment_prilozi">
+        <action
+            android:id="@+id/action_prilozi_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+    <fragment
+        android:id="@+id/juhe"
+        android:name="com.example.menzara.Juhe"
+        android:label="Juhe"
+        tools:layout="@layout/fragment_juhe">
+        <action
+            android:id="@+id/action_juhe_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+    <fragment
+        android:id="@+id/variva"
+        android:name="com.example.menzara.Variva"
+        android:label="Variva"
+        tools:layout="@layout/fragment_variva">
+        <action
+            android:id="@+id/action_variva_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+    <fragment
+        android:id="@+id/deserti"
+        android:name="com.example.menzara.Deserti"
+        android:label="Deserti"
+        tools:layout="@layout/fragment_deserti">
+        <action
+            android:id="@+id/action_deserti_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+    <fragment
+        android:id="@+id/salate"
+        android:name="com.example.menzara.Salate"
+        android:label="Salate"
+        tools:layout="@layout/fragment_salate">
+        <action
+            android:id="@+id/action_salate_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+    <fragment
+        android:id="@+id/pica"
+        android:name="com.example.menzara.Pica"
+        android:label="Pića"
+        tools:layout="@layout/fragment_pica">
+        <action
+            android:id="@+id/action_pica_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+    <fragment
+        android:id="@+id/dodaci"
+        android:name="com.example.menzara.Dodaci"
+        android:label="Dodaci jelima"
+        tools:layout="@layout/fragment_dodaci">
+        <action
+            android:id="@+id/action_dodaci_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+    <fragment
+        android:id="@+id/mlijecni"
+        android:name="com.example.menzara.Mlijecni"
+        android:label="Mliječni proizvodi"
+        tools:layout="@layout/fragment_mlijecni">
+        <action
+            android:id="@+id/action_mlijecni_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+    <fragment
+        android:id="@+id/voce"
+        android:name="com.example.menzara.Voce"
+        android:label="Voće"
+        tools:layout="@layout/fragment_voce">
+        <action
+            android:id="@+id/action_voce_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+    <fragment
+        android:id="@+id/menu2"
+        android:name="com.example.menzara.Menu"
+        android:label="Meni"
+        tools:layout="@layout/fragment_menu" />
+    <fragment
+        android:id="@+id/search2"
+        android:name="com.example.menzara.Search"
+        android:label="Tražilica"
+        tools:layout="@layout/fragment_search" />
+</navigation>

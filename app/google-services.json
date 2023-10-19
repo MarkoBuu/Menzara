@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "936860330925",
+    "project_id": "menzara-e52d9",
+    "storage_bucket": "menzara-e52d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936860330925:android:05158c918e75006a6fcf24",
+        "android_client_info": {
+          "package_name": "com.example.menzara"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936860330925-7a7a79unrl74tiggbmrhtk7nusnliu6l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4cFHAMcKZ5PJUXZMqJdtw2GXxw6wzIhM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936860330925-7a7a79unrl74tiggbmrhtk7nusnliu6l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
